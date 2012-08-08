@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	color: #A8A8A8;
+	font-family: 'Segoe WPC', Segoe UI, Arial, Tahoma, sans-serif;
+	font-size: 13px;
+	background: #141414;
+}
+
+#main{
+	background: #141414;
+	border: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+
+	opacity: 0;
+
+	-webkit-transition: all 500ms ease;
+}
+
+#main.loaded{
+	opacity: 1;
+}
+#main body{
+
+}
